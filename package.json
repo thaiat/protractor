@@ -1,0 +1,63 @@
+{
+  "name": "workspace",
+  "version": "0.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "browser-sync": "~1.5.7",
+    "browserify": "~6.0.3",
+    "chalk": "~0.5.1",
+    "event-stream": "~3.1.7",
+    "growly": "~1.1.1",
+    "gulp": "~3.8.8",
+    "gulp-autoprefixer": "~1.0.1",
+    "gulp-bump": "~0.1.11",
+    "gulp-concat": "~2.4.1",
+    "gulp-eslint": "~0.1.8",
+    "gulp-git": "~0.5.2",
+    "gulp-if": "~1.2.5",
+    "gulp-istanbul": "~0.3.1",
+    "gulp-jscs": "~1.1.2",
+    "gulp-jshint": "~1.8.5",
+    "gulp-karma": "~0.0.4",
+    "gulp-load-plugins": "~0.7.0",
+    "gulp-minify-css": "~0.3.10",
+    "gulp-mocha": "~1.1.1",
+    "gulp-plumber": "~0.6.6",
+    "gulp-protractor": "~0.0.11",
+    "gulp-rename": "~1.2.0",
+    "gulp-sass": "~1.1.0",
+    "gulp-size": "~1.1.0",
+    "gulp-sourcemaps": "~1.2.4",
+    "gulp-util": "~3.0.1",
+    "gulp-webserver": "~0.8.3",
+    "karma": "~0.12.24",
+    "lodash": "~2.4.1",
+    "map-stream": "~0.1.0",
+    "open": "~0.0.5",
+    "phantomjs": "~1.9.10",
+    "protractor": "~1.3.1",
+    "require-dir": "~0.1.0",
+    "run-sequence": "~1.0.1",
+    "stream-combiner": "~0.2.1",
+    "strip-json-comments": "~1.0.1",
+    "vinyl-source-stream": "~1.0.0",
+    "watchify": "~2.0.0",
+    "yargs": "~1.3.2"
+  },
+  "devDependencies": {
+    "mkdirp": "~0.5.0",
+    "jasmine-reporters": "~1.0.1",
+    "jasmine-spec-reporter": "~0.6.0",
+    "protractor-html-screenshot-reporter": "0.0.17",
+    "gulp-help": "~1.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
